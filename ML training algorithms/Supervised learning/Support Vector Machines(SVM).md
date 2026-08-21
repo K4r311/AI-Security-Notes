@@ -7,3 +7,7 @@ De plus, les limites de décision au niveau des SVM ont des `marges` , plus ou m
 Ces marges sont définies par les points les plus proches des `hyperlanes`
 
 ![test ](https://towardsdatascience.com/wp-content/uploads/2023/10/1bXlp7LVAPhIay-Pk0MxdlA.png) 
+
+Pour les SVM non linéaires, il existe une technique appelée le **kernel trick**. Elle permet de transformer implicitement les données dans un espace de dimension supérieure, où il peut devenir plus facile de les séparer à l'aide d'un hyperplan. 
+
+Cette technique utilise des **kernel functions** pour calculer la similarité entre les données dans cet espace sans avoir à effectuer explicitement la transformation.
